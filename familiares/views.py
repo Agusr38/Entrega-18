@@ -8,6 +8,8 @@ from familiares.models import familiares
 def familiar_view(request):
     familiar = familiares.objects.all()
     
+    template = loader.get_template(r"C:\Users\agust\OneDrive\Documentos\Cursos\Curso python\Django\Entrega desafio\entrega_18\entrega_18\templates\index.html")
+    
     info = {"familiar": familiar}     
     
     template = loader.get_template(r"C:\Users\agust\OneDrive\Documentos\Cursos\Curso python\Django\Entrega desafio\entrega_18\entrega_18\templates\index.html")

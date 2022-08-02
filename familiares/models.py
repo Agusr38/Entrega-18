@@ -6,4 +6,4 @@ from datetime import datetime
 class familiares(models.Model):
     nombre_apellido = models.CharField(max_length=30)
     Edad = models.IntegerField()
-    fecha_nacimiento = str(models.DateField())
+    Profesion = (models.CharField(max_length=30))

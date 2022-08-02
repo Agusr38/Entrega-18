@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from django.template import Template,Context, loader
+from django.template import Template, loader
 from familiares.models import familiares
 
 # Create your views here.
